@@ -32,3 +32,32 @@ let user = {
 }
 
 console.log(user);
+
+//specify the variable type wise
+let stringVariable: string;
+stringVariable = "34";
+
+let numberVariable: number;
+numberVariable = 34;
+
+//Array
+let arrayVariable: string[] = []; //array type
+arrayVariable.push("done");
+
+let bothArray: (string|number)[] = []; //union type
+// bothArray.push(34,"asdfsdf",false);
+bothArray.push(34,"asdfsdf");
+
+//Object //explicit type
+let info: {
+    name: string,
+    phone: number,
+    adult: boolean
+}
+
+info = {
+    name: 'AAA',
+    phone: 34234324,
+    // adult: "asdfasdf",
+    adult: true,
+}

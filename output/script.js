@@ -25,3 +25,22 @@ let user = {
     id: 1
 };
 console.log(user);
+//specify the variable type wise
+let stringVariable;
+stringVariable = "34";
+let numberVariable;
+numberVariable = 34;
+//Array
+let arrayVariable = []; //array type
+arrayVariable.push("done");
+let bothArray = []; //union type
+// bothArray.push(34,"asdfsdf",false);
+bothArray.push(34, "asdfsdf");
+//Object //explicit type
+let info;
+info = {
+    name: 'AAA',
+    phone: 34234324,
+    // adult: "asdfasdf",
+    adult: true,
+};
