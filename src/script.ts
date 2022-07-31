@@ -61,3 +61,12 @@ info = {
     // adult: "asdfasdf",
     adult: true,
 }
+
+//Dynamic type or any type
+let any: any;
+any = 4590;
+
+let anyArray:any[] = [];
+anyArray.push(3432);
+anyArray.push("asdfasdf");
+console.log(anyArray);
